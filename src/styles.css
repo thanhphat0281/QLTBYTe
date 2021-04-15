@@ -9,5 +9,11 @@
 @import '../node_modules/@syncfusion/ej2-angular-dropdowns/styles/material.css';
 
 html {
-    margin: -8px;
+  margin: 0;
+}
+body{
+margin: 0;
+}
+.mt-8{
+margin-top: 8px;
 }

@@ -1,33 +1,45 @@
 
- <header>
+<header>
   <div class="main">
     <div class="logo">
       <h1>
-        <img src="https://inthienha.com/wp-content/uploads/File-vector-kho%CC%82ng-ga%CC%82y-vo%CC%9B%CC%83-hi%CC%80nh.png" alt="item image">
+        <img
+          src="https://inthienha.com/wp-content/uploads/File-vector-kho%CC%82ng-ga%CC%82y-vo%CC%9B%CC%83-hi%CC%80nh.png"
+          alt="item image">
       </h1>
     </div>
     <div class="title">
       <h2>Cửa hàng </h2>
       <h2>Trang thiết bị y tế ABC </h2>
     </div>
-   
   </div>
   <div class="panner">
     <div class="background-panner">
       <div class="title-panner">
         <a class="logo-img" href="">EMC</a>
-       
-        <a routerLink = "/login">Đăng nhập </a> 
-        
+        <a href="#" class="drop-down">Quản lý thiết bị
+          <ul class="subnav">
+            <li><a routerLink="/equipment">thống kê theo thiết bị</a></li>
+            <li><a href="#">thống kê theo kho</a></li>
+            <li><a href="#">danh sách tổng</a></li>
+          </ul>
+        </a>
+        <a href="" class="">Quản lý kho</a>
+        <a href="" class="">Quản lý tài khoản
+
+        </a>
+        <a href="" class="">Sửa chữa</a>
+        <a href="" class="">Danh mục thiết bị</a>
+        <a routerLink="/login">Đăng nhập </a>
+      </div>
     </div>
-    </div>
-    
-    
+
+
   </div>
- </header>
-  
-<!-- <nav> 
-   <a routerLink = "/home">Home</a> 
-   <a routerLink = "/edit-home">Contact Us </a> 
+</header>
+
+<!-- <nav>
+   <a routerLink = "/home">Home</a>
+   <a routerLink = "/edit-home">Contact Us </a>
 </nav>  -->
 <router-outlet></router-outlet>

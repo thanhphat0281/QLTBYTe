@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { EditHomeComponent } from './edit-home/edit-home.component';
 import { LoginComponent } from './login/login.component';
 import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
+import { EquipmentComponent } from './equipment/equipment.component';
+import { ChangeNameEquipmentComponent } from './equipment/change-name-equipment/change-name-equipment.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
     HomeComponent,
     EditHomeComponent,
     LoginComponent,
+    EquipmentComponent,
+    ChangeNameEquipmentComponent,
   ],
   imports: [
     BrowserModule,

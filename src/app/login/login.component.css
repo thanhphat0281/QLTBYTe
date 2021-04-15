@@ -2,53 +2,53 @@
     border: 1px solid #333333;
     width: 200px;
     height: 100px;
-    
+
 } */
 .main-all {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .main {
-    padding: 20px;
-    border: 1px solid #333333;
-    width: 400px;
+  padding: 20px;
+  border: 1px solid #333333;
+  width: 400px;
 }
 .main h4 {
-    font-size: 32px;
-    text-align: center;
+  font-size: 32px;
+  text-align: center;
 }
 body {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .title-login {
-    background: #74b9ff;
-    /* width: 100%; */
-    height: 2px;
-    margin-bottom: 30px;
+  background: #74b9ff;
+  /* width: 100%; */
+  height: 2px;
+  margin-bottom: 30px;
 }
 span {
-    /* margin: 40px 0px; */
-    font-size: 18px;
-    line-height: 4;
+  /* margin: 40px 0px; */
+  font-size: 18px;
+  line-height: 4;
 }
 button {
-    width: 225px;
-    padding: 10px 10px;
-    background: #74b9ff;
-    border-radius: 3px;
-    border: none;
-    font-size: 24px;
-    color: aliceblue;
+  width: 225px;
+  padding: 10px 10px;
+  background: #74b9ff;
+  border-radius: 3px;
+  border: none;
+  font-size: 24px;
+  color: aliceblue;
 }
 input {
-    width: 400px;
-    height: 30px;
-    margin-bottom: 30px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 30px;
 }
 .main-button {
-    width: 400px;
-    text-align: center;
+  width: 400px;
+  text-align: center;
 }
